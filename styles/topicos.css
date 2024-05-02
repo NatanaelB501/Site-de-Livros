@@ -54,21 +54,17 @@
 
 @media screen and (min-width: 1728px) {
 
-    .container__topicos {
-        width: 64%;
-        padding-left: 18%;
+    .topicos {
+        display: flex;
+        justify-content: center;
     }
 
     .topico__titulo {
         font-size: 2rem;
     }
 
-    .lista__item {
-        margin: 4% 1%;
-    }
-
     .botao__lista {
         font-size: 1.5rem;
-    }
+    } 
 
 }
