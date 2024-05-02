@@ -66,6 +66,10 @@
     display: none;
 }
 
+.titulo__icones__rodape {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
 
     .cabecalho {
@@ -119,4 +123,23 @@
     .lista-menu {
         width: auto;
     }
+}
+
+@media screen and (min-width: 1728px) {
+    .opcoes {
+        margin-right: 32%;
+    }
+
+    .icones__com__titulos {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--cor-preto);
+        font-size: 1.25rem;
+    }
+
+    .titulo__icones__rodape {
+        display: block;
+    }
+
 }
