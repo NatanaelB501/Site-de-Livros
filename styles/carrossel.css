@@ -123,4 +123,27 @@
         margin: 3em auto;
     }
 }
+
+@media screen and (min-width: 1728px) {
+
+    .carrossel__titulo,
+    .descricao__titulo {
+        font-size: 2rem;
+    }
+
+    .carrossel__card {
+        display: flex;
+        margin: 5% 10%;
+        gap: 4%;
+    }
+
+    .card {
+        margin-top: 6.5%;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+    top: 56%;
+    }
+}
     

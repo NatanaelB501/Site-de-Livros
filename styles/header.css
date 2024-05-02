@@ -58,14 +58,8 @@
     background-clip: text;
 }
 
-.container__titulo {
-    display: none;
-}
-
-.opcoes {
-    display: none;
-}
-
+.container__titulo,
+.opcoes,
 .titulo__icones__rodape {
     display: none;
 }

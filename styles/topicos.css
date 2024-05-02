@@ -34,15 +34,41 @@
 
 @media  screen and (min-width: 1024px) {
 
-    .topico__lista  {
-        margin: 0 8em;
+    .topico__titulo {
+        font-size: 1.5rem;
     }
-    .lista__item    {
-        margin: 1.5em 0 3.5em 1em; 
-    }  
-    
-    .botao__lista,
-    .topico__titulo   {
-    font-size: 1.5rem;
+
+    .topico__lista {
+        width: 80%;
+        padding-left: 10%;
     }
+
+    .lista__item {
+        margin: 5% 1%;
+    }
+
+    .botao__lista {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .container__topicos {
+        width: 64%;
+        padding-left: 18%;
+    }
+
+    .topico__titulo {
+        font-size: 2rem;
+    }
+
+    .lista__item {
+        margin: 4% 1%;
+    }
+
+    .botao__lista {
+        font-size: 1.5rem;
+    }
+
 }

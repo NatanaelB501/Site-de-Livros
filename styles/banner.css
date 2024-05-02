@@ -51,3 +51,23 @@
         padding: 5em 0;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .banner__texto {
+        font-weight: 500;
+        padding-bottom: 1em;
+    }
+
+    .banner__pesquisa {
+        padding: 1.8em 8.5em;
+        width: 35%;
+        border-radius: 50px;
+
+    }
+    
+    .banner__pesquisa::placeholder {
+        font-size: 1rem;
+        padding-left: 2em;
+
+    }
+}
