@@ -1,0 +1,122 @@
+.cabecalho__menu-hamgurguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem {
+    padding: 1em;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 70vw;
+}
+
+.container__botao:checked~.lista-menu {
+    display: block;
+}
+
+.container__botao {
+    display: none;
+}
+
+.lista-menu__titulo,
+.lista-menu__item {
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.lista-menu__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+
+}
+
+.lista-menu__link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.container__titulo {
+    display: none;
+}
+
+.opcoes {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .cabecalho {
+        padding-left: 3.5em;
+    }
+
+    .container__titulo,
+    .container__titulo--negrito {
+        font-family: var(--fonte-secundaria);
+        font-size: 1.87rem;
+    }
+
+    .container__titulo {
+        font-weight: 400;
+        display: block;
+        padding-top: .4em;
+    }
+
+    .container__titulo--negrito {
+        font-weight: 700;
+    }
+
+    .opcoes {
+        display: flex;
+        gap: 2.5rem;
+        padding: 0 0 0 2em;
+
+    }
+
+    .opcoes__itens,
+    .opcoes__link {
+        text-decoration: none;
+        color: var(--cor-preto);
+        text-transform: uppercase;
+    }
+
+    .container__imagem-transparente{
+        display: none;
+    }
+
+    .container__icones {
+        display: flex;
+        gap: 2.5rem;
+        padding: 0 3em 0 0;
+    }
+
+    .cabecalho__menu-hamgurguer {
+        display: none;
+    }
+
+    .lista-menu {
+        width: auto;
+    }
+}
